@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>관리자 대시보드</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>🎬 관리자 대시보드</h1>
+  </header>
+
+  <main>
+    <section class="dashboard">
+      <h2>대여 요청</h2>
+      <table id="requests">
+        <thead>
+          <tr>
+            <th>이름</th>
+            <th>장비</th>
+            <th>대여 날짜</th>
+            <th>상태</th>
+            <th>승인/반려</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- 요청 목록이 동적으로 삽입됩니다 -->
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+  <footer>
+    <p>관리자 대시보드 - 연세예술원</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
