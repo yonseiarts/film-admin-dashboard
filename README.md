@@ -1,1 +1,1 @@
-# film-admin-dashboard
+# 연세예술원 기자재 관리
